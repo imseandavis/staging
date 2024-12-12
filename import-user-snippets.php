@@ -1,5 +1,5 @@
 <?php
-$json_file = 'ignore-email-field.json'; 
+$json_file = 'snippets.json'; 
 
 if (!file_exists($json_file)) {
     WP_CLI::error("JSON file not found: $json_file");
