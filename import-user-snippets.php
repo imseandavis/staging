@@ -1,5 +1,5 @@
 <?php
-$json_file = 'Disable Email Required Field For User Imports.json';
+$json_file = 'import-email-field.json';
 if (!file_exists($json_file)) {
     WP_CLI::error("JSON file not found: $json_file");
 }
